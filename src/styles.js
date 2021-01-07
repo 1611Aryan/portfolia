@@ -5,7 +5,7 @@ export const Layout = styled.div`
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 4rem;
+  padding: 1rem 4rem;
   align-items: center;
   .description {
     color: white;
@@ -28,10 +28,12 @@ export const Layout = styled.div`
   }
 
   p {
+    margin-top: 1rem;
     font-size: 1rem;
     font-weight: lighter;
   }
   button {
+    margin-top: 1rem;
     font-size: 1.1rem;
     background: #1b1b1b;
     color: white;
@@ -45,7 +47,7 @@ export const Layout = styled.div`
     flex: 1;
     img {
       width: 95%;
-      height: 80vh;
+      height: 75vh;
       object-fit: cover;
     }
   }
